@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!DOCTYPE html>
+<html>
+<style>
+  div {
+    width: 400px;
+    height: 100px;
+    padding: 15px;
+    background-color: coral;
+    box-shadow: 10px 10px;
+    font-family: times new roman;
+    font-size: 2em;
+    position: center;
+  }
+
+
+
+  .gradient {
+    background: #1a2a6c;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, green, skyblue, blue);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  p.gradient {
+    width: 1200;
+    height: 500px;
+  }
+
+  p.quote {
+    font-family: 'Notable', times new roman;
+    font-size: 100px;
+    color: #fdbb2d;
+    /* fallback color for browser that can't background clip text */
+    display: inline-block;
+    /* quick trick to make the bounding box (for the background) the same width as the text */
+
+    background-clip: text;
+    /* fallbacks for webkit browsers */
+    -webkit-background-clip: text;
+    /* clipped background won't show in webkit browsers unless the text fill is transparent */
+    -webkit-text-fill-color: transparent;
+  }
+</style>
+
+<head>
+</head>
+
+<body>
+
+  <p class="gradient">
+  <div class="gradient">Isn't this a beautiful color?</div>
+  </p>
+  <p class="gradient quote">CSS is Life</p>
+</body>
+
+<p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="KKxypgj" data-user="karln"
+  style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/karln/pen/KKxypgj">
+      Untitled</a> by Karl (<a href="https://codepen.io/karln">@karln</a>)
+    on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+</html>
